@@ -23,6 +23,24 @@
 		5AB6ABA7714B4C11BE15563D /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43598EB4A86249099AE94FE9 /* Inter-Regular.ttf */; };
 		7FADAE44FB5C42C2B7BA5FA3 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74BEC4908104482FA1DC0146 /* Inter-SemiBold.ttf */; };
 		69F584FF7A374874A0DC8CC7 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4E0AB2FD4134231812563EA /* Inter-Thin.ttf */; };
+		F7C53CE243AB41F1A70964CC /* Overpass-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87C69B3D3A774C23ACCE31F7 /* Overpass-Black.ttf */; };
+		FC71F696D800475F8941CF4D /* Overpass-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A281E807E51D41A796045DC2 /* Overpass-BlackItalic.ttf */; };
+		CE997639E852439C82D91379 /* Overpass-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F216486B7F1A4072A9BC7D9E /* Overpass-Bold.ttf */; };
+		70AF6355305B441BA5D7215E /* Overpass-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BEEB26E84C4B059783777E /* Overpass-BoldItalic.ttf */; };
+		627ABB112BB44ABDB84CB992 /* Overpass-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1134C2DDA1DB4CB69CE6D449 /* Overpass-ExtraBold.ttf */; };
+		9F60AC03A89040BDB15E4C46 /* Overpass-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E12803C998B5439DA5EA2B99 /* Overpass-ExtraBoldItalic.ttf */; };
+		0A63B092754443CDA0DB8B1A /* Overpass-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF8701431FA247E79CC20F57 /* Overpass-ExtraLight.ttf */; };
+		9BE23240F5AE464A8D904817 /* Overpass-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8DEFD36ECA946068F20F9B8 /* Overpass-ExtraLightItalic.ttf */; };
+		00BF70FCB49E46D5AB7DE04E /* Overpass-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2304ADB2FB7F40EFAAC637D6 /* Overpass-Italic.ttf */; };
+		F039343AD9B24915AC9BE247 /* Overpass-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A727428C832D4787A73FEF63 /* Overpass-Light.ttf */; };
+		1DB59C5330664EE68A045030 /* Overpass-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B0EAF448A12408881E67170 /* Overpass-LightItalic.ttf */; };
+		9E7AED028A94473C9C77A55F /* Overpass-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09037251FE7946EDB3A03DE4 /* Overpass-Medium.ttf */; };
+		A4A7510FD98A49F7B968EBAB /* Overpass-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C2F2F4AE54A41BE9C7F0EC3 /* Overpass-MediumItalic.ttf */; };
+		0FA49662C8B64CE0B8D66E08 /* Overpass-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 025A5C0EEED747C7977BAC2F /* Overpass-Regular.ttf */; };
+		1DCAD731439F484C82DBACD9 /* Overpass-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6094BBBE6844F5B89569A4 /* Overpass-SemiBold.ttf */; };
+		EFC9104CBEC1409EB9FF2BF4 /* Overpass-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D497A361C604EFE8E34C101 /* Overpass-SemiBoldItalic.ttf */; };
+		B7F0F297435C4C2985A43DF2 /* Overpass-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8781CF3529B64F6DA7A047D6 /* Overpass-Thin.ttf */; };
+		B7449B3EC63D48B691B534A2 /* Overpass-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FA6BF714B264E9783E2E397 /* Overpass-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +81,24 @@
 		43598EB4A86249099AE94FE9 /* Inter-Regular.ttf */ = {isa = PBXFileReference; name = "Inter-Regular.ttf"; path = "../assests/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		74BEC4908104482FA1DC0146 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; name = "Inter-SemiBold.ttf"; path = "../assests/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		B4E0AB2FD4134231812563EA /* Inter-Thin.ttf */ = {isa = PBXFileReference; name = "Inter-Thin.ttf"; path = "../assests/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		87C69B3D3A774C23ACCE31F7 /* Overpass-Black.ttf */ = {isa = PBXFileReference; name = "Overpass-Black.ttf"; path = "../assests/fonts/Overpass-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A281E807E51D41A796045DC2 /* Overpass-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-BlackItalic.ttf"; path = "../assests/fonts/Overpass-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F216486B7F1A4072A9BC7D9E /* Overpass-Bold.ttf */ = {isa = PBXFileReference; name = "Overpass-Bold.ttf"; path = "../assests/fonts/Overpass-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3BEEB26E84C4B059783777E /* Overpass-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-BoldItalic.ttf"; path = "../assests/fonts/Overpass-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1134C2DDA1DB4CB69CE6D449 /* Overpass-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Overpass-ExtraBold.ttf"; path = "../assests/fonts/Overpass-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E12803C998B5439DA5EA2B99 /* Overpass-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-ExtraBoldItalic.ttf"; path = "../assests/fonts/Overpass-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EF8701431FA247E79CC20F57 /* Overpass-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Overpass-ExtraLight.ttf"; path = "../assests/fonts/Overpass-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B8DEFD36ECA946068F20F9B8 /* Overpass-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-ExtraLightItalic.ttf"; path = "../assests/fonts/Overpass-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2304ADB2FB7F40EFAAC637D6 /* Overpass-Italic.ttf */ = {isa = PBXFileReference; name = "Overpass-Italic.ttf"; path = "../assests/fonts/Overpass-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A727428C832D4787A73FEF63 /* Overpass-Light.ttf */ = {isa = PBXFileReference; name = "Overpass-Light.ttf"; path = "../assests/fonts/Overpass-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B0EAF448A12408881E67170 /* Overpass-LightItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-LightItalic.ttf"; path = "../assests/fonts/Overpass-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09037251FE7946EDB3A03DE4 /* Overpass-Medium.ttf */ = {isa = PBXFileReference; name = "Overpass-Medium.ttf"; path = "../assests/fonts/Overpass-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C2F2F4AE54A41BE9C7F0EC3 /* Overpass-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-MediumItalic.ttf"; path = "../assests/fonts/Overpass-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		025A5C0EEED747C7977BAC2F /* Overpass-Regular.ttf */ = {isa = PBXFileReference; name = "Overpass-Regular.ttf"; path = "../assests/fonts/Overpass-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F6094BBBE6844F5B89569A4 /* Overpass-SemiBold.ttf */ = {isa = PBXFileReference; name = "Overpass-SemiBold.ttf"; path = "../assests/fonts/Overpass-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D497A361C604EFE8E34C101 /* Overpass-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-SemiBoldItalic.ttf"; path = "../assests/fonts/Overpass-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8781CF3529B64F6DA7A047D6 /* Overpass-Thin.ttf */ = {isa = PBXFileReference; name = "Overpass-Thin.ttf"; path = "../assests/fonts/Overpass-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5FA6BF714B264E9783E2E397 /* Overpass-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Overpass-ThinItalic.ttf"; path = "../assests/fonts/Overpass-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +217,24 @@
 				43598EB4A86249099AE94FE9 /* Inter-Regular.ttf */,
 				74BEC4908104482FA1DC0146 /* Inter-SemiBold.ttf */,
 				B4E0AB2FD4134231812563EA /* Inter-Thin.ttf */,
+				87C69B3D3A774C23ACCE31F7 /* Overpass-Black.ttf */,
+				A281E807E51D41A796045DC2 /* Overpass-BlackItalic.ttf */,
+				F216486B7F1A4072A9BC7D9E /* Overpass-Bold.ttf */,
+				B3BEEB26E84C4B059783777E /* Overpass-BoldItalic.ttf */,
+				1134C2DDA1DB4CB69CE6D449 /* Overpass-ExtraBold.ttf */,
+				E12803C998B5439DA5EA2B99 /* Overpass-ExtraBoldItalic.ttf */,
+				EF8701431FA247E79CC20F57 /* Overpass-ExtraLight.ttf */,
+				B8DEFD36ECA946068F20F9B8 /* Overpass-ExtraLightItalic.ttf */,
+				2304ADB2FB7F40EFAAC637D6 /* Overpass-Italic.ttf */,
+				A727428C832D4787A73FEF63 /* Overpass-Light.ttf */,
+				2B0EAF448A12408881E67170 /* Overpass-LightItalic.ttf */,
+				09037251FE7946EDB3A03DE4 /* Overpass-Medium.ttf */,
+				7C2F2F4AE54A41BE9C7F0EC3 /* Overpass-MediumItalic.ttf */,
+				025A5C0EEED747C7977BAC2F /* Overpass-Regular.ttf */,
+				2F6094BBBE6844F5B89569A4 /* Overpass-SemiBold.ttf */,
+				5D497A361C604EFE8E34C101 /* Overpass-SemiBoldItalic.ttf */,
+				8781CF3529B64F6DA7A047D6 /* Overpass-Thin.ttf */,
+				5FA6BF714B264E9783E2E397 /* Overpass-ThinItalic.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -290,6 +344,24 @@
 				5AB6ABA7714B4C11BE15563D /* Inter-Regular.ttf in Resources */,
 				7FADAE44FB5C42C2B7BA5FA3 /* Inter-SemiBold.ttf in Resources */,
 				69F584FF7A374874A0DC8CC7 /* Inter-Thin.ttf in Resources */,
+				F7C53CE243AB41F1A70964CC /* Overpass-Black.ttf in Resources */,
+				FC71F696D800475F8941CF4D /* Overpass-BlackItalic.ttf in Resources */,
+				CE997639E852439C82D91379 /* Overpass-Bold.ttf in Resources */,
+				70AF6355305B441BA5D7215E /* Overpass-BoldItalic.ttf in Resources */,
+				627ABB112BB44ABDB84CB992 /* Overpass-ExtraBold.ttf in Resources */,
+				9F60AC03A89040BDB15E4C46 /* Overpass-ExtraBoldItalic.ttf in Resources */,
+				0A63B092754443CDA0DB8B1A /* Overpass-ExtraLight.ttf in Resources */,
+				9BE23240F5AE464A8D904817 /* Overpass-ExtraLightItalic.ttf in Resources */,
+				00BF70FCB49E46D5AB7DE04E /* Overpass-Italic.ttf in Resources */,
+				F039343AD9B24915AC9BE247 /* Overpass-Light.ttf in Resources */,
+				1DB59C5330664EE68A045030 /* Overpass-LightItalic.ttf in Resources */,
+				9E7AED028A94473C9C77A55F /* Overpass-Medium.ttf in Resources */,
+				A4A7510FD98A49F7B968EBAB /* Overpass-MediumItalic.ttf in Resources */,
+				0FA49662C8B64CE0B8D66E08 /* Overpass-Regular.ttf in Resources */,
+				1DCAD731439F484C82DBACD9 /* Overpass-SemiBold.ttf in Resources */,
+				EFC9104CBEC1409EB9FF2BF4 /* Overpass-SemiBoldItalic.ttf in Resources */,
+				B7F0F297435C4C2985A43DF2 /* Overpass-Thin.ttf in Resources */,
+				B7449B3EC63D48B691B534A2 /* Overpass-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

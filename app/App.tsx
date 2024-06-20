@@ -30,6 +30,10 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import OnboardingScreen from './Screens/OnboardingScreen'
 import HomeScreen from './Screens/Homescreen';
+import LoginScreen from './Screens/Auth/Login';
+import ForgotPassword from './Screens/Auth/ForgotPassword';
+import VerifyScreen from './Screens/Auth/Verification';
+import { Input,  NativeBaseProvider } from "native-base";
 const Stack = createStackNavigator();
 
 
@@ -56,18 +60,35 @@ function App(): React.JSX.Element {
   }, []);
 
   return (
-  
+    <NativeBaseProvider>
       <NavigationContainer>
         <Stack.Navigator screenOptions={{headerShown: false}}>
-          {isAppFirstLaunched && (
+          {isAppFirstLaunched ==true && (
             <Stack.Screen
               name="OnboardingScreen"
               component={OnboardingScreen}
             />
           )}
-          <Stack.Screen name="HomeScreen" component={HomeScreen} />
+         
+          <Stack.Screen
+              name="HomeScreen"
+              component={HomeScreen}
+            />
+             <Stack.Screen
+              name="Login"
+              component={LoginScreen}
+            />
+            <Stack.Screen
+              name="reset"
+              component={ForgotPassword}
+            />
+             <Stack.Screen
+              name="verify"
+              component={VerifyScreen}
+            />
         </Stack.Navigator>
       </NavigationContainer>
+      </NativeBaseProvider>
     )
 }
 
