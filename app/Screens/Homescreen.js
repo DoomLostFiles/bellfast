@@ -19,7 +19,7 @@ const HomeScreen = ({ navigation }) => {
         
       <FormControl  w="85%"  h='65px'>
         <FormControl.Label style={{fontSize:16}}>Full Name</FormControl.Label>
-        <Input fontSize={17} borderRadius={10} focusOutlineColor='#513DB0' placeholder="Enter Name"  style={{width:400,height:65, borderRadius:20}} />
+        <Input fontFamily={'Overpass-Bold'}  fontSize={17} borderRadius={10} focusOutlineColor='#513DB0' placeholder="Enter Name"  style={{width:400,height:65, borderRadius:20}} />
        
       </FormControl>
     </Box>
@@ -27,7 +27,7 @@ const HomeScreen = ({ navigation }) => {
         
       <FormControl  w="85%"  h='65px'>
         <FormControl.Label style={styles.rootStyle}>E-mail</FormControl.Label>
-        <Input fontSize={17} borderRadius={10} variant="outline" focusOutlineColor='#513DB0' style={{width:400,height:65, borderRadius:20}} placeholder="Enter email" />
+        <Input fontFamily={'Overpass-Bold'} fontSize={17} borderRadius={10} variant="outline" focusOutlineColor='#513DB0' style={{width:400,height:65, borderRadius:20}} placeholder="Enter email" />
        
       </FormControl>
     </Box>
@@ -35,7 +35,7 @@ const HomeScreen = ({ navigation }) => {
         
       <FormControl  w="85%" h='65px' >
         <FormControl.Label>Password</FormControl.Label>
-               <Input fontSize={17} borderRadius={10} variant="outline" focusOutlineColor='#513DB0'  style={{width:400,height:65, borderRadius:20}}placeholder="Enter password" w={{
+               <Input fontFamily={'Overpass-Bold'} fontSize={17} borderRadius={10} variant="outline" focusOutlineColor='#513DB0'  style={{width:400,height:65, borderRadius:20}}placeholder="Enter password" w={{
         base: "100%",
         md: "100%"}} type={show ? "text" : "password"} InputRightElement={<Pressable onPress={() => setShow(!show)}>
         <Icon as={<FontAwesomeIcon icon ={show ? faEye : faEyeSlash} />} size={5} mr="2" color="muted.400" />

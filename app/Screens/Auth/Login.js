@@ -17,15 +17,15 @@ const LoginScreen = ({ navigation }) => {
         
       <FormControl  w="85%"  h='65px'>
         <FormControl.Label style={styles.rootStyle}>E-mail</FormControl.Label>
-        <Input fontSize={17} borderRadius={10} variant="outline" focusOutlineColor='#513DB0' style={{width:400,height:65, borderRadius:20}} placeholder="Enter email" />
+        <Input fontFamily={'Inter-Bold'} fontSize={17} borderRadius={10} variant="outline" focusOutlineColor='#513DB0' style={{width:400,height:65, borderRadius:20}} placeholder="Enter email" />
        
       </FormControl>
     </Box>
     <Box style={{left:26, top:30, marginBottom:40}}>
         
       <FormControl  w="85%" h='65px' >
-        <FormControl.Label>Password</FormControl.Label>
-        <Input fontSize={17} borderRadius={10} variant="outline" focusOutlineColor='#513DB0'  style={{width:400,height:65, borderRadius:20}}placeholder="Enter password" w={{
+        <FormControl.Label style={styles.rootStyle}>Password</FormControl.Label>
+        <Input fontSize={17} fontFamily={'Inter-Bold'} borderRadius={10} variant="outline" focusOutlineColor='#513DB0'  style={{width:400,height:65, borderRadius:20}}placeholder="Password" w={{
         base: "100%",
         md: "100%"}} />
        

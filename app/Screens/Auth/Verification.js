@@ -2,14 +2,14 @@ import React,  { useRef }from 'react';
 import {SafeAreaView, Text,View,StyleSheet,Image,Dimensions} from 'react-native';
 import { Input, FormControl, WarningOutlineIcon, Box, Button,HStack, Divider, NativeBaseProvider, Text as InputText } from "native-base";
 import TopSign from '../components/auth/top';
-import OTPTextInput from 'react-native-otp-textinput';
+import { OtpInput } from 'react-native-otp-entry';
 const VerifyScreen = ({ navigation }) => {
     const {height : SCREEN_WIDTH} = Dimensions.get('window');
-    clearText = () => {
+   const clearText = () => {
         this.otpInput.clear();
     }
     
-    setText = () => {
+    const setText = () => {
         this.otpInput.setValue("1234");
     }
   return (
@@ -26,10 +26,26 @@ const VerifyScreen = ({ navigation }) => {
  
    
   
-          <Box style={{left:26, top:30, marginBottom:40}}>
+          <Box paddingX='16' style={{left:26, top:30, marginBottom:40,paddingHorizontal: 16,}}>
           <FormControl  w="85%" h='65px' >
       
-        <OTPTextInput ref={e => (otpInput = e)} />
+          <OtpInput
+  numberOfDigits={4}
+  focusColor="green"
+  focusStickBlinkingDuration={500}
+  onTextChange={(text) => console.log(text)}
+  onFilled={() => navigation.navigate('Home')}
+  textInputProps={{
+    accessibilityLabel: "One-Time Password",
+  }}
+  theme={{
+    containerStyle: styles.container,
+    pinCodeContainerStyle: styles.pinCodeContainer,
+    pinCodeTextStyle: styles.pinCodeText,
+    focusStickStyle: styles.focusStick,
+    focusedPinCodeContainerStyle: styles.activePinCodeContainer,
+  }}
+/> 
            
        
       </FormControl></Box>
@@ -49,6 +65,14 @@ const styles = StyleSheet.create({
   rootStyle:{
     fontFamily:'Overpass-Black',fontSize:16 ,backgroundColor:'white',
   },
+  container:{  flex: 1,
+    justifyContent: 'center'
+},
+  pinCodeContainer:{},
+  pinCodeText:{},
+  focusStick:{},
+  activePinCodeContainer:{ backgroundColor: '#ecf0f1'},
+
   itemContainer: {
     display: 'flex',
    position:'relative',
