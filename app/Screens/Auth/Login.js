@@ -50,7 +50,7 @@ const LoginScreen = ({ navigation }) => {
   Sign Up
       </Text>
       </HStack>
-      <HStack  space={3} style={{ marginTop:40,marginBottom:0,textAlign:'center',justifyContent:'center',fontSize:14,fontWeight:'500'}}>
+      <HStack  space={3} style={{ marginTop:10,marginBottom:0,textAlign:'center',justifyContent:'center',fontSize:14,fontWeight:'500'}}>
       <Divider my="2" color={'#B3B3B3'} />
         <Text> Login with  </Text>  
         <Divider my="2" color={'#B3B3B3'} />

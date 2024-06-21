@@ -1,4 +1,4 @@
-import {StyleSheet, View, FlatList, ViewToken,Dimensions} from 'react-native';
+import {StyleSheet, View, FlatList, ViewToken,Dimensions,useWindowDimensions} from 'react-native';
 import {
 
   Text,
@@ -28,6 +28,8 @@ const OnboardingScreen = () => {
     no: SharedValue<number>;
     index: number;
   };
+  //const {width,height } = useWindowDimensions();
+  const {width, height} = Dimensions.get('window');
   const navigation = useNavigation();
   const butonSkip= () => {
     return (
@@ -149,7 +151,7 @@ const OnboardingScreen = () => {
       flatListIndex.value = viewableItems[0].index;
     }
   };
-  const {width, height} = Dimensions.get('window');
+  
   const onScroll = useAnimatedScrollHandler({
     onScroll: event => {
       x.value = event.contentOffset.x;
@@ -248,6 +250,7 @@ const styles = StyleSheet.create({
   },
   center:{
     alignItems:'center',top:100
+    ,bottom: Dimensions.,
   },
   topContainer: {
     flexDirection: 'row',

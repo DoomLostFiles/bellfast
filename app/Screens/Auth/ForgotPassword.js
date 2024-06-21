@@ -1,11 +1,13 @@
-import React from 'react';
-import {SafeAreaView, Text,View,StyleSheet,Image,Dimensions} from 'react-native';
+import React, { Component, useState} from 'react';
+import {SafeAreaView, Text,View,StyleSheet,Image,Dimensions,Platform,} from 'react-native';
 import { Input, FormControl, WarningOutlineIcon, Box, Button,HStack, Divider, NativeBaseProvider, Text as InputText } from "native-base";
 import TopSign from '../components/auth/top';
 import PhoneInput from 'react-native-phone-input'
 const ResetScreen = ({ navigation }) => {
     const {height : SCREEN_WIDTH} = Dimensions.get('window');
-   
+    const [phone, setPhone] = useState('')
+ 
+ 
   return (
     
     <SafeAreaView style={styles.rootStyle}>
@@ -30,26 +32,40 @@ const ResetScreen = ({ navigation }) => {
    
    
       
-    <Box  w='340' marginRight={20} marginLeft={20}> 
-      <HStack alignContent={'center'}  space={4} style={{ marginTop:40,marginBottom:0,textAlign:'center',justifyContent:'center',fontSize:14,fontWeight:'500'}}>
+    <Box  w='340'marginTop={20} marginRight={20} marginLeft={10} backgroundColor={'white'} flexDirection={'row'}> 
+      
+      <Divider style={{width:'30%'}} my="2" color={'#B3B3B3'} />
+        <Text style={{fontFamily:'Inter-Regular',fontWeight:'500',fontSize:14,lineHeight:16}}> Or reset with  </Text>  
+        <Divider style={{width:'30%'}} my="2" color={'#B3B3B3'} />
         
-      <Divider style={{width:'50%'}} my="2" color={'#B3B3B3'} />
-        <Text> or reset with  </Text>  
-        <Divider  my="1" color={'#B3B3B3'} />
-        
-          </HStack></Box>
+          </Box>
           <Box style={{left:26, top:30, marginBottom:40}}>
           <FormControl  w="85%" h='65px' >
         <FormControl.Label style={styles.subtitle}>Phone number</FormControl.Label>
-        <PhoneInput   ref={(ref) => {
-            this.phone = ref;
-          }}
-          onPressFlag={this.onPressFlag}/> 
        
+          <PhoneInput
+                  // ref={phoneInput}
+                  defaultValue={phone}
+                  defaultCode="NG"
+                  layout="second"
+                  onChangeText={(value) => setPhone(value)}
+                  onChangeFormattedText={(formattedValue) => setPhone(formattedValue)}
+                  withDarkTheme
+                  withShadow={Platform.OS==="android"?true:false}
+                  disableArrowIcon
+                  
+                  textInputStyle={styles.textInputStyle}
+                  codeTextStyle={styles.codeTextStyle}
+                  placeholder='Phone number'
+                  textInputProps={{ placeholderTextColor: '#B2B2B2', fontSize: 15, lineHeight: 14.4, fontFamily: Platform.OS === 'android' ? 'Barlow-Regular' : undefined, fontWeight: '100' }}
+            // textInputStyle={{color:"red",}}
+                  textContainerStyle={styles.numberContainer}
+                  containerStyle={styles.codeContainer}
+                />
       </FormControl></Box>
           <Box  style={{left:26, top:50}}>
         
-        <Button  style={{width:360,height:58, backgroundColor:'#513DB0',fontSize:15,borderRadius:12,lineHeight:21,}} onPress={() => console.log("hello world")}>
+        <Button  style={{width:360,height:58, backgroundColor:'#513DB0',fontSize:15,borderRadius:12,lineHeight:21,}} onPress={() => navigation.navigate('SetPassword')}>
           <InputText fontFamily={'Inter-Regular'} fontSize={15} color={'white'}>Send new password</InputText></Button>
         </Box>
     </SafeAreaView>
@@ -57,6 +73,48 @@ const ResetScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+  
+  numberContainer: {
+    backgroundColor: 'transparent',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flex: 1
+    //   maxHeight:60,
+    //   paddingBottom:0,
+    //   paddingTop:0,
+  },
+  codeContainer: {
+    backgroundColor: 'white',
+    borderBottomWidth: 1,
+    borderColor: 1,
+    elevation: 0,
+    width: '100%',
+    // paddingBottom:5,
+    // paddingTop:6
+  },
+  textInputStyle: {
+    // borderBottomColor: color.border,
+    // borderBottomWidth: 1,
+    // marginBottom: -20,
+    width: '100%',
+    // marginBottom: -20,
+    // paddingBottom:5,
+    padding:0,
+    // fontWeight:'200',
+    // fontSize: 15,
+    marginLeft:-30
+  },
+  codeTextStyle: {
+    // borderBottomColor: color.text,
+    // borderBottomWidth: 0.6,
+    // paddingBottom: 7,  
+    // marginBottom: -20,
+    // marginLeft: -50,
+    // width: 60,
+    fontWeight: '400',
+    fontFamily: Platform.OS === 'android' ? 'Barlow-Regular' : undefined,
+  },
   rootStyle:{
     fontFamily:'Overpass-Black',fontSize:16 ,backgroundColor:'white',
   },

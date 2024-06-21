@@ -33,6 +33,9 @@ import HomeScreen from './Screens/Homescreen';
 import LoginScreen from './Screens/Auth/Login';
 import ForgotPassword from './Screens/Auth/ForgotPassword';
 import VerifyScreen from './Screens/Auth/Verification';
+import SetPasswordScreen from './Screens/Auth/NewPassword';
+import JoinScreen from './Screens/AccountSetup/join';
+import SetPhoneScreen from './Screens/AccountSetup/phonenumber';
 import { Input,  NativeBaseProvider } from "native-base";
 const Stack = createStackNavigator();
 
@@ -83,8 +86,20 @@ function App(): React.JSX.Element {
               component={ForgotPassword}
             />
              <Stack.Screen
-              name="verify"
+              name="erify"
               component={VerifyScreen}
+            />
+             <Stack.Screen
+              name="SetPassword"
+              component={SetPasswordScreen}
+            />
+              <Stack.Screen
+              name="JoinAs"
+              component={JoinScreen}
+            />
+                 <Stack.Screen
+              name="SetPhoneScreen"
+              component={SetPhoneScreen}
             />
         </Stack.Navigator>
       </NavigationContainer>
